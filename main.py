@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 import random
 import re
 
-#  Завдання 1
+#  TASK 1
 
 def get_days_from_today(date):
     format = "%Y-%m-%d"
@@ -19,7 +19,7 @@ print(get_days_from_today('2024-12-09'))
 print(get_days_from_today('2021-10-09'))
 print(get_days_from_today('2024.12.09')) # error
 
-# Завдання 2
+# TASK 2
 
 def get_numbers_ticket(min: int, max: int, quantity: int):
     list_numbers = []
